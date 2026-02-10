@@ -58,7 +58,7 @@ uv run uvicorn main:app --reload
 
 # 実行する
 
-https://github.com/Ryo-Kawanami/object_detection_app_uv/blob/main/assets/showcase.png
+![](https://github.com/Ryo-Kawanami/object_detection_app_uv/blob/main/assets/showcase.png)
 
 # 参考
 
