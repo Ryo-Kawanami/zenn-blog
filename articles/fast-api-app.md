@@ -4,7 +4,7 @@ emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python"]
 published: true
-published_at: 2027-06-12 09:03 # 未来の日時を指定する
+published_at: 2026-02-12 08:00 # 未来の日時を指定する
 ---
 
 # 環境の準備
@@ -41,3 +41,26 @@ uv init
 uv add "fastapi[standard]"
 uv add --dev ruff pytest pytest-cov
 ```
+
+# FastAPIの中身を書く
+
+https://github.com/Ryo-Kawanami/object_detection_app_uv/tree/main/main.py
+
+# 起動・ブラウザで開く
+
+起動
+
+```
+uv run uvicorn main:app --reload
+```
+
+ブラウザで http://127.0.0.1:8000/ を開く。
+
+# 実行する
+
+https://github.com/Ryo-Kawanami/object_detection_app_uv/blob/main/assets/showcase.png
+
+# 参考
+
+- [FastAPI公式チュートリアル](https://fastapi.tiangolo.com/ja/tutorial/first-steps/#check-it)
+- [FastAPIとuvで始めるPythonモダンAPI開発](https://qiita.com/y_inoue15/items/6ae20c20b4a4b2cad842)
