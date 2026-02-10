@@ -42,9 +42,17 @@ uv add "fastapi[standard]"
 uv add --dev ruff pytest pytest-cov
 ```
 
+# ディレクトリ構成
+
+https://github.com/Ryo-Kawanami/object_detection_app_uv/tree/main
+
 # FastAPIの中身を書く
 
 https://github.com/Ryo-Kawanami/object_detection_app_uv/tree/main/main.py
+
+# htmlを書く
+
+https://github.com/Ryo-Kawanami/object_detection_app_uv/tree/main/static/index.html
 
 # 起動・ブラウザで開く
 
